@@ -9,4 +9,5 @@ select r.name as region_name,
 from accounts a	   
 join sales_reps s on a.sales_rep_id = s.id
 join region r on s.region_id = r.id
+order by account_name
 
