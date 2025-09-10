@@ -1,0 +1,16 @@
+{
+    "order": {
+        "order_id": 12345,
+        "customer": "John Doe",
+        "items": [
+            {
+                "product": "Laptop",
+                "qty": 1
+            },
+            {
+                "product": "Mouse",
+                "qty": 2
+            }
+        ]
+    }
+}

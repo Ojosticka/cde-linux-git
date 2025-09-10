@@ -1,0 +1,15 @@
+{
+    "city": "Lagos",
+    "forecast": [
+        {
+            "day": "Monday",
+            "temp": 30,
+            "condition": "Sunny"
+        },
+        {
+            "day": "Tuesday",
+            "temp": 29,
+            "condition": "Rainy"
+        }
+    ]
+}

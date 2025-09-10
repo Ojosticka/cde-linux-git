@@ -1,0 +1,20 @@
+1) EXTRACT: creating folder raw and downloading file...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0 7876k    0 51115    0     0  10321      0  0:13:01  0:00:04  0:12:57 10320 14 7876k   14 1167k    0     0   198k      0  0:00:39  0:00:05  0:00:34  241k 44 7876k   44 3520k    0     0   510k      0  0:00:15  0:00:06  0:00:09  727k 60 7876k   60 4735k    0     0   588k      0  0:00:13  0:00:08  0:00:05  947k 73 7876k   73 5808k    0     0   652k      0  0:00:12  0:00:08  0:00:04 1250k 85 7876k   85 6767k    0     0   683k      0  0:00:11  0:00:09  0:00:02 1359k 97 7876k   97 7711k    0     0   707k      0  0:00:11  0:00:10  0:00:01 1308k100 7876k  100 7876k    0     0   715k      0  0:00:11  0:00:11 --:--:-- 1059k
+File successfully saved in raw folder: raw/enterprise_survey.csv
+2) TRANSFORM: processing raw CSV -> Transformed folder...
+Transformed file successfully created: Transformed/transformed_enterprise_survey.csv
+3) LOAD: putting transformed file into Gold folder...
+File successfully loaded into Gold folder: Gold/transformed_enterprise_survey.csv
+ETL complete!
+[2025-09-10 18:43:01] 1) EXTRACT: creating folder raw and downloading file...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 7876k    0  5368    0     0   2926      0  0:45:56  0:00:01  0:45:55  2925  5 7876k    5  412k    0     0   146k      0  0:00:53  0:00:02  0:00:51  146k 58 7876k   58 4592k    0     0  1235k      0  0:00:06  0:00:03  0:00:03 1235k100 7876k  100 7876k    0     0  1884k      0  0:00:04  0:00:04 --:--:-- 1885k
+File saved successfully in /mnt/c/Users/user/OneDrive - 1s3w3h/Desktop/CDE Bootcamp/Linux and Git/cde-linux-git/raw
+[2025-09-10 18:43:05] 2) TRANSFORM: processing raw CSV -> Transformed folder...
+Transformed file saved successfully in /mnt/c/Users/user/OneDrive - 1s3w3h/Desktop/CDE Bootcamp/Linux and Git/cde-linux-git/Transformed
+[2025-09-10 18:43:09] 3) LOAD: putting transformed file into Gold folder...
+File successfully loaded to /mnt/c/Users/user/OneDrive - 1s3w3h/Desktop/CDE Bootcamp/Linux and Git/cde-linux-git/Gold
+[2025-09-10 18:43:09] ETL complete!
